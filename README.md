@@ -1,5 +1,8 @@
 # Password Generator
 
+## Application
+https://hngdngng.github.io/password-generator/
+
 ## Description
 The goal of this project was to create an application that generates a random password based on user-selected criteria to create strong and unpredictable passwords for user accounts. It features a clean and polished, responsive user interface adaptable to multiple screen sizes.
 
@@ -16,7 +19,7 @@ The website features the following:
 * Lowercase, uppercase, numeric, and/or special characters combinations
 
 The following image demonstrates the application functionality:
-![Image of password generator website] (pw-gen-app.png)
+![Image of password generator website] pw-gen-app.png
 
 ## Author
 Hoang Nguyen
