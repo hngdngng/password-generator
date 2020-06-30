@@ -16,7 +16,7 @@ The website features the following:
 * Lowercase, uppercase, numeric, and/or special characters combinations
 
 The following image demonstrates the application functionality:
-![Image of password generator website] (./pw-gen-app.png)
+![Image of password generator website] (pw-gen-app.png)
 
 ## Author
 Hoang Nguyen
