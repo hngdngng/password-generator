@@ -18,6 +18,8 @@ The website features the following:
 * Prompts for user inputs
 * Lowercase, uppercase, numeric, and/or special characters combinations
 
+![Alt text](pw-gen-app.png)
+
 The following image demonstrates the application functionality:
 ![Image of password generator website] pw-gen-app.png
 
