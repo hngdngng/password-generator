@@ -1,4 +1,4 @@
-// Assignment Code
+// JS for https://hngdngng.github.io/password-generator/*/
 
 //Traverse DOM elements
 var passwordText = document.querySelector("#password");
@@ -31,29 +31,31 @@ function getUserInput() {
   }
 }
 
+//Create password
 function generatePassword(userPassLength) {
   var possChar = "";
   var passGen = "";
   
+  //concatenate characters to possible password string (possChar)
   if (specChar == true) {
-    possChar = possChar.concat(specCharStr);
+    possChar = possChar.concat(specCharStr); 
   }
   if (numChar == true) {
     possChar = possChar.concat(numStr);
   }
   if (lowCase == true) {
-    possChar = possChar.concat(uppStr);
-  }
-  if (uppCase == true) {
     possChar = possChar.concat(lowStr);
   }
-
-  for (var i = 0; i < userPassLength; i++) {
-    var ind = Math.floor(Math.random() * possChar.length);
-    passGen = passGen.concat(possChar.charAt(ind));
+  if (uppCase == true) {
+    possChar = possChar.concat(uppStr);
   }
 
-  return passGen;
+  for (var i = 0; i < userPassLength; i++) { //loop until it meets the desired password length
+    var ind = Math.floor(Math.random() * possChar.length); //random number generator using the length of possible password string
+    passGen = passGen.concat(possChar.charAt(ind)); //random number used as index in possible password string
+  }
+
+  return passGen; //returns the value when this function is executed (line 24 will replace #password with the return value)
 }
 
 // Add event listener to generate button on click

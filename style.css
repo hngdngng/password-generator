@@ -1,51 +1,55 @@
 /* CSS for https://hngdngng.github.io/password-generator/*/
 
+/* Global Style */
 html,
 body,
-.wrapper {
+.main {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
+/* Sections */
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: lightgrey;
 }
 
-.wrapper {
+.main {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 header {
-  text-align: center;
   padding: 20px;
-  padding-top: 0px;
+  padding-top: 10px;
+}
+
+header h1 {
+  font-family: 'Roboto Condensed', Sans-Serif;
+  text-align: center;
+  font-weight: bolder;
   color: hsl(206, 17%, 28%);
 }
 
+/* Card Style */
 .card {
   max-width: 800px;
-  padding: 30px 40px;
+  padding: 10px 10px;
+  font-family: 'Cabin', Sans-Serif;
 }
 
 .card-body {
   min-height: 100px;
 }
 
-.card-header {
-  background-color: white;
-}
-
 .card-footer {
   text-align: center;
-  background-color: white;
 }
 
+/* Button style */
 .btn {
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(167, 74, 57);
   border-radius: 25px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
@@ -56,6 +60,7 @@ header {
   text-align: center;
 }
 
+/* Password text style */
 #password {
   display: block;
   width: 100%;
@@ -83,10 +88,18 @@ header {
   #password {
     font-size: 1rem;
   }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
   }
 }
