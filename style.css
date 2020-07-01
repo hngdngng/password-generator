@@ -11,7 +11,7 @@ body,
 
 /* Sections */
 body {
-  background-color: lightgrey;
+  background-color: rgb(116,112,139);
 }
 
 .main {
@@ -29,7 +29,7 @@ header h1 {
   font-family: 'Roboto Condensed', Sans-Serif;
   text-align: center;
   font-weight: bolder;
-  color: hsl(206, 17%, 28%);
+  color: rgb(19,12,62);
 }
 
 /* Card Style */
@@ -37,10 +37,9 @@ header h1 {
   max-width: 800px;
   padding: 10px 10px;
   font-family: 'Cabin', Sans-Serif;
-}
-
-.card-body {
-  min-height: 100px;
+  background-color: rgb(19,12,62);
+  color: rgb(228,49,71);
+  border-radius: 20px;
 }
 
 .card-footer {
@@ -49,7 +48,7 @@ header h1 {
 
 /* Button style */
 .btn {
-  background-color: rgb(167, 74, 57);
+  background-color: rgb(228,49,71);
   border-radius: 25px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
@@ -72,9 +71,10 @@ header h1 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  border: 2px dashed rgb(228,49,71);
+  border-radius: 20px;
   resize: none;
+
 }
 
 /* Media Query to change  */
