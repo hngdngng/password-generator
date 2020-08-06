@@ -1,7 +1,7 @@
 # Password Generator
 
 ## Application
-https://hngdngng.github.io/password-generator/
+Published application at https://hngdngng.github.io/password-generator/
 
 ## Description
 The goal of this project was to create an application that generates a random password based on user-selected criteria to create strong and unpredictable passwords for user accounts. It features a clean and polished, responsive user interface adaptable to multiple screen sizes.
